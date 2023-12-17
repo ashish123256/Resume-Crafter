@@ -1,0 +1,46 @@
+/* styles.css */
+
+/* Style the form container */
+.form-container {
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Style the form group */
+  .form-group {
+    margin-bottom: 15px; /* Adjust margin as needed */
+  }
+  
+  /* Style the form label */
+  .form-group label {
+    display: block;
+    margin-bottom: 5px; /* Adjust margin as needed */
+    font-weight: bold;
+  }
+  
+  /* Style the form input */
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Style the form input when it is focused */
+  .form-control:focus {
+    outline: none;
+    border-color: #007bff; /* Adjust color as needed */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adjust shadow as needed */
+  }
+  
+  /* Style the form input when it is invalid */
+  .form-control:invalid {
+    border-color: #dc3545; /* Adjust color as needed */
+  }
+  
+  /* Style the form input when it is valid */
+  .form-control:valid {
+    border-color: #28a745; /* Adjust color as needed */
+  }
+  

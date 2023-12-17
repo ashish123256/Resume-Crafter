@@ -1,0 +1,22 @@
+.container{
+    margin-top: 3rem;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    align-items: center;
+    height: 30px;
+}
+
+
+i {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: baseline;
+}
+

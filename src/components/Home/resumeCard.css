@@ -1,0 +1,63 @@
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the card */
+  .card {
+    width: 100%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the card header */
+  .card-header {
+    font-size: 1.5rem;
+  }
+  
+  /* Style the card body */
+  .card-body {
+    padding: 1rem;
+  }
+  
+  /* Style the card text */
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    cursor: pointer;
+  }
+  
+  /* Add margin to the buttons */
+  .btn-primary {
+    margin-right: 5px;
+  }
+  
+  /* Add a background color to the delete button */
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  /* Remove default button styles */
+  .bg-transparent {
+    background-color: transparent;
+    border: none;
+  }
+  
+  /* Adjust spacing for the buttons */
+  .d-flex {
+    margin-top: 10px;
+  }
+  
+  /* Add spacing between buttons */
+  .gap-3 > * {
+    margin-right: 10px;
+  }
+  
