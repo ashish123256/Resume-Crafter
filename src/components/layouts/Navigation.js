@@ -29,7 +29,7 @@ const Navigation = () => {
         skills: [],
       };
   
-      await fetch("/resume", {
+      await fetch(`http://localhost:3030/resume`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
