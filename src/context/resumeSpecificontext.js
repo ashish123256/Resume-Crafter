@@ -26,7 +26,7 @@ export const ResumeSpecificContextProvider = ({ children }) => {
   const fetchDataById = async (resumeId) => {
     try {
       setIsLoading(true);
-      await fetch(`/resume/${resumeId}`)
+      await fetch(`http://localhost:3030/resume/${resumeId}`)
         .then((res) => res.json())
         .then((data) => {
           setResumeById(data);
