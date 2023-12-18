@@ -10,7 +10,7 @@ const HomePage = () => {
       <div className="container ">
         <div className="row ">
           <div className="text-center">
-            <h1>Welcome to Resume Builder</h1>
+            <h1>Welcome to Resume Crafter</h1>
             <p><i>Create your professional resume with ease.</i></p>
           </div>
         </div>
