@@ -39,7 +39,7 @@ const SkillsInput = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!_.isEqual(resumeById, aResume)) {
-      await fetch(`/resume/${resumeById.id}`, {
+      await fetch(`http://localhost:3030/resume/${resumeById.id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
