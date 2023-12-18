@@ -34,7 +34,7 @@ const ResumeCard = () => {
         if (window.confirm("Are you sure about deleting this item?")) {
           try {
             setIsDeleted(true);
-            await fetch(`/resume/${resumeId}`, {
+            await fetch(`http://localhost:3030/resume/${resumeId}`, {
               method: "DELETE",
               headers: {
                 "Content-Type": "application/json",
